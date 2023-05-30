@@ -1,4 +1,4 @@
-export default function NovelCard() {
+export default function NovelCard({ title, img }) {
   return (
     <div className="
         bg-white
@@ -6,10 +6,15 @@ export default function NovelCard() {
         rounded-md
         p-4
         relative
+        hover:shadow-lg
+        transition
+        hover:scale-105
+
+        
 
     ">
       <img
-        src={"https://qph.cf2.quoracdn.net/main-qimg-e9e9891ad8c113351909e23d587301ed-lq"}
+        src={img}
         alt="novel cover"
         className="
         rounded-md
@@ -17,6 +22,10 @@ export default function NovelCard() {
         transition
         hover:scale-105
         "
+        style={{
+          height: "300px",
+          width: "250px",
+        }}
       />
       <span className="
        absolute
@@ -30,24 +39,35 @@ export default function NovelCard() {
         ">
         New
       </span>
-      <div className="
-        text-gray-800
+      <div
+        className="
+        text-white
         absolute
         bottom-4
         right-4
-        bg-sky-200
         pl-2
         pr-1
         height-8
         ml-2
-        rounded-md        
+        rounded-md  
+       
+             
         "
-        
-        >
+        style={{
+          fontFamily: "Roboto",
+          background: "rgba(255, 255, 255, 0.25)",
+          borderadius: 16,
+          boxShadow: " 0 4px 30px rgba(0, 0, 0, 0.1)",
+          backdropFilter: "blur(5px)",
+          WebkitBackdropFilter: "blur(5px)",
+          border: "1px solid rgba(255, 255, 255, 0.3)",
+        }}
+      >
         <p>Status : Completed</p>
         <p>
           Chapter : 240 Total Views : 12k
         </p>
+        <p>{title}</p>
       </div>
     </div>
   );
