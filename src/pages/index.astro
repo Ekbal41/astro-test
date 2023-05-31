@@ -1,14 +1,19 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import Intro from "../components/Intro.astro";
-import NovelCluster from "../components/NovelCluster.jsx";
+import NovelCard from "../components/NovelCard";
+// import NovelCluster from "../components/NovelCluster.jsx";
+
 ---
 
 <MainLayout>
   <Intro />
-  <NovelCluster title={"new Arival"} items={""} client:load />
-  <NovelCluster title={"Populer"} items={""} client:load/>
-  <NovelCluster title={"Completed"} items={""} client:load/>
-
-
+  <!-- <NovelCluster title={"new Arival"} items={""} client:load /> -->
+  <div class="grid grid-cols-5 gap-1 mx-8 mt-8 p-16">
+    <NovelCard
+      title={"my novel6"}
+      img={"https://th.bing.com/th/id/OIP.mICfQi094FRiMAQuVlkc4QHaKw?pid=ImgDet&w=720&h=1046&rs=1"}
+      to={"/novel"}
+    />
+  </div>
 </MainLayout>
