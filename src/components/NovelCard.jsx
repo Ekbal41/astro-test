@@ -28,6 +28,7 @@ export default function NovelCard({ title, img, to }) {
           style={{
             height: "300px",
             width: "250px",
+            border : "1px solid #e5e7eb",
           }}
         />
         <span className="
