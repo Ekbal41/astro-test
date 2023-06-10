@@ -1,79 +1,31 @@
-export default function NovelCard({ title, img, to }) {
+export default function NovelCard() {
   return (
-    <a
-    href={to}
-    >
-      <div className="
-        bg-white
-        shadow
-        rounded-md
-        p-4
-        relative
-        hover:shadow-lg
-        transition
-        hover:scale-105
-        cursor-pointer
-        
-
-    ">
-        <img
-          src={img}
-          alt="novel cover"
-          className="
-        rounded-md
-        hover:opacity-75
-        transition
-        hover:scale-105
-        "
-          style={{
-            height: "300px",
-            width: "250px",
-            border : "1px solid #e5e7eb",
-          }}
-        />
-        <span className="
-       absolute
-       top-0
-         right-0
-         bg-red-500
-         text-white
-         px-2
-         rounded
-
-        ">
-          New
-        </span>
-        <div
-          className="
-        text-white
-        absolute
-        bottom-4
-        right-4
-        pl-2
-        pr-1
-        height-8
-        ml-2
-        rounded-md  
-       
-             
-        "
-          style={{
-            fontFamily: "Roboto",
-            background: "rgba(255, 255, 255, 0.25)",
-            borderadius: 16,
-            boxShadow: " 0 4px 30px rgba(0, 0, 0, 0.1)",
-            backdropFilter: "blur(5px)",
-            WebkitBackdropFilter: "blur(5px)",
-            border: "1px solid rgba(255, 255, 255, 0.3)",
-          }}
-        >
-          <p>Status : Completed</p>
-          <p>
-            Chapter : 240 Total Views : 12k
-          </p>
-          <p>{title}</p>
+    <div className=" flex justify-start items-center flex-col mb-8">
+      <img
+        className="h-64 w-52 rounded-md shadow-md object-cover hover:opacity-75 transition duration-500 ease-in-out transform hover:border-2 hover:border-gray-300 border-2 border-white"
+        src="/novelimg.JPEG"
+        alt="placeholder"
+      />
+      <div className="mt-3 ">
+        <div className="cursor-pointer hover:underline transition-all ease-in-out">
+          <a href="/novel-details" className="">Nine Star Hegemon Body Art</a>
         </div>
+        <div className="flex gap-2 text-yellow-500">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          (4.5)
+        </div>
+        <h4 className="capitalize">
+          <i class="bi bi-stickies mr-2"></i>chapter 1124{" "}
+        </h4>
+
+        <p className="text-gray-400 text-sm">
+          <i class="bi bi-clock text-slate-800 mr-2 text-sm"></i> 2 days ago
+        </p>
       </div>
-    </a>
+    </div>
   );
 }
