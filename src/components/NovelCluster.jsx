@@ -92,28 +92,28 @@ export default function NovelCluster({ title, items }) {
   };
   return (
     <>
-      <div class="mx-8 mt-8 p-8
+      <div className="mx-8 mt-8 p-8
         ">
-        <div class="flex justify-between items-center">
-          <h1 class="text-sky-500 font-bold text-2xl capitalize">
+        <div className="flex justify-between items-center">
+          <h1 className="text-sky-500 font-bold text-2xl capitalize">
             {title}
           </h1>
           <div>
             <button
               onClick={handlePrevClick}
-              class="inline-flex items-center uppercase font-bold bg-sky-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-sky-700 rounded text-base mt-4 md:mt-0"
+              className="inline-flex items-center uppercase font-bold bg-sky-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-sky-700 rounded text-base mt-4 md:mt-0"
             >
               Prev
             </button>
             <button
               onClick={handleNextClick}
-              class="inline-flex ml-4 items-center uppercase font-bold bg-sky-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-sky-700 rounded text-base mt-4 md:mt-0"
+              className="inline-flex ml-4 items-center uppercase font-bold bg-sky-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-sky-700 rounded text-base mt-4 md:mt-0"
             >
               Next
             </button>
           </div>
         </div>
-        <div class="flex mt-4 gap-4">
+        <div className="flex mt-4 gap-4">
           {novelCards.slice(startIndex, endIndex).map((novelCard) => {
             return (
               <div className="">

@@ -1,97 +1,71 @@
 export default function ChapterIndexComp() {
   return (
     <>
-      <div class="mx-20 mt-8 bg-white rounded-t-md shadow-md p-8">
-        <div class="flex justify-between mb-8 ">
-          <select class="bg-sky-100 py-2 px-3 caret-sky-500 shadow-sm rounded-md text-gray-700 capitalize">
-            <option value="100-200">100-200</option>
-            <option value="100-200">100-200</option>
-            <option value="100-200">100-200</option>
-            <option value="100-200">100-200</option>
-            <option value="100-200">100-200</option>
-            <option value="100-200">100-200</option>
-          </select>
-          <input class="bg-sky-100 py-2 px-3 shadow-sm rounded-md text-gray-700 capitalize" placeholder="Search chapter..." />
+      <div>
+        <div className="flex justify-between items-center border-b-2  pb-4">
+          <div className="flex gap-4">
+            <p className="font-bold">Latest Chapter :</p>
+            <p className=" text-blue-500 hover:underline cursor-pointer">Chapter 29 - Oh Heavens</p>
+          </div>
+          <button>
+            <i className="bi bi-sort-down-alt text-2xl font-bold"></i>
+          </button>
         </div>
-        <div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 1 : Epilogue
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 mt-12">
+          <div
+            className="flex gap-8 py-2 px-4"
+            style={{
+              borderBottom: "1px solid #e2e8f0",
+            }}
+          >
+            <p className="mt-1">1</p>
+            <div>
+              <a className="text-md hover:underline cursor-pointer">
+                Enemy Attack 
+              </a>
+              <p className="text-xs text-gray-400">3yr</p>
             </div>
           </div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 2 : Shaking the Heavens
+          <div
+            className="flex gap-8 py-2 -50 px-4 "
+            style={{
+              borderBottom: "1px solid #e2e8f0",
+            }}
+          >
+            <p className="mt-1">2</p>
+            <div>
+            <a className="text-md hover:underline cursor-pointer">
+               Heavenly Vain
+              </a>
+              <p className="text-xs text-gray-400">3yr</p>
             </div>
           </div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 3 : Primodial Essence
+          <div
+            className="flex gap-8 py-2 px-4 bg-gray-50"
+            style={{
+              borderBottom: "1px solid #e2e8f0",
+            }}
+          >
+            <p className="mt-1">3</p>
+            <div>
+            <a className="text-md hover:underline cursor-pointer">
+               Paramita of Revelation
+              </a>
+              <p className="text-xs text-gray-400">3yr</p>
             </div>
           </div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 4 : The Dragon Prince
-            </div>
-          </div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 1 : Epilogue
-            </div>
-          </div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 2 : Shaking the Heavens
-            </div>
-          </div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 3 : Primodial Essence
-            </div>
-          </div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 4 : The Dragon Prince
-            </div>
-          </div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 1 : Epilogue
-            </div>
-          </div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 2 : Shaking the Heavens
-            </div>
-          </div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 3 : Primodial Essence
-            </div>
-          </div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 4 : The Dragon Prince
-            </div>
-          </div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 1 : Epilogue
-            </div>
-          </div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 2 : Shaking the Heavens
-            </div>
-          </div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 3 : Primodial Essence
-            </div>
-          </div>
-          <div class="border-b-2 cursor-pointer  transition-colors">
-            <div class="bg-gray-100 p-4 text-gray-800 hover:bg-gray-200 hover:underline">
-              Chapter 4 : The Dragon Prince
+          <div
+            className="flex gap-8 py-2 bg-gray-50 px-4"
+            style={{
+              borderBottom: "1px solid #e2e8f0",
+            }}
+          >
+            <p className="mt-1">4</p>
+            <div>
+            <a className="text-md hover:underline cursor-pointer">
+                The Great Sage
+              </a>
+              <p className="text-xs text-gray-400">3yr</p>
             </div>
           </div>
         </div>

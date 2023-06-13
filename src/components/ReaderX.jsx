@@ -157,45 +157,56 @@ export default function ReaderX() {
                 fontFamily: fontFamily(fontFam),
               }}
             >
-              The spectacle of many gods appearing in the Sea Realm last time
-              might have occurred during the last ominous battle.<br />
-              <br />{" "}
-              However, today, in the Graveyard of Gods, all the gods gathered at
-              the goddess' star tomb.<br />
-              <br />
-              The majestic divine shadows were extremely solemn.<br />
-              <br /> Anyone who saw this scene would be shocked.<br />
-              <br />{" "}
-              As for Han Fei, he stood up calmly and cupped his hands.<br />
-              <br />{" "}
-              “Seniors, I didn't expect you to pay so much attention to
-              me.<br />
-              <br /> In that case, I'll get straight to the point.<br />
-              <br />” Han Fei was slightly surprised, but not much
-              surprised.<br />
-              <br /> The Graveyard of Gods was full of buried gods.<br />
-              <br />{" "}
-              If their remnant souls were still here, they might pay attention
-              to him, or they probably didn't just pay attention to him, but to
-              everyone.<br />
-              <br /> At this moment, a god couldn't wait.<br />
-              <br />{" "}
-              “Boy, you said you could help us enter the cycle of reincarnation?
-              Are you serious?” Confidently, Han Fei raised his head and looked
-              at the god who spoke.<br />
-              <br /> “I am the current Human Emperor, Han Fei.<br />
-              <br /> I always keep my word.<br />
-              <br />{" "}
-              If I say I can help you enter the cycle of reincarnation, I
-              can.<br />
-              <br />” A god said, “Why should I believe you?” Han Fei
-              sneered.<br />
-              <br />
-              “Senior, do you have a choice? How long have you been sleeping
-              here? Do you have any hope of reincarnation? If you do, you won't
-              be willing to choose a successor and try to pass on all your
-              knowledge.<br />
-              <br />” Ads by Pubfuture A god said, “Since the Primordial Era,
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur vitae quam amet? Ea accusantium vel ex dolore aliquam
+              laboriosam necessitatibus quis tempore ut ipsa voluptatem, iusto
+              architecto saepe in quo quae placeat quibusdam consectetur
+              molestiae nulla? Sequi aspernatur omnis cumque perferendis
+              consequatur voluptatem voluptates consectetur, cupiditate dolorem
+              enim repudiandae eum saepe nulla atque, dolore corporis impedit
+              vel provident quo, officia ea nostrum. Est soluta expedita,
+              reiciendis necessitatibus explicabo quaerat. Mollitia minus
+              accusamus illo aliquid magnam esse, quibusdam dolorem ratione
+              quasi ullam ducimus, beatae optio facilis qui quo provident
+              inventore earum, voluptatum totam unde quis illum adipisci rem
+              recusandae. Aut laboriosam minus accusamus laborum in ducimus
+              tempore tempora officiis, quod necessitatibus excepturi porro
+              laudantium amet hic! Tempora recusandae distinctio dicta, est
+              accusantium natus dolorem blanditiis libero aperiam ad odit dolor
+              tempore fuga adipisci, repudiandae nam! Corporis hic saepe
+              asperiores? Porro recusandae tempora deleniti, expedita, soluta,
+              voluptates beatae accusamus alias excepturi in voluptatibus iusto
+              ab atque quibusdam neque provident veritatis. Doloremque, quo
+              provident. Voluptatibus, ut quo! Accusamus consectetur ullam sint,
+              animi maiores dolor, illo pariatur commodi saepe a, quisquam
+              quibusdam repellendus. Omnis id totam, ratione libero debitis,
+              dolorum perferendis molestiae sed ab earum in odit molestias
+              similique ea cumque distinctio fugit quod rerum, sit architecto
+              quis mollitia? Nostrum corporis, illum omnis ea ratione iusto iste
+              non laudantium aliquam, culpa, nobis vitae accusantium! Quo nemo
+              autem, quae repellat explicabo earum exercitationem assumenda
+              numquam fugiat obcaecati dolorem eos voluptatibus saepe aliquid
+              nostrum accusantium tempora sed, iure itaque fuga. Veniam, ratione
+              dignissimos provident fugit illo, blanditiis cupiditate explicabo
+              quas quisquam ullam cum commodi ut! Perspiciatis fugiat laboriosam
+              corporis quisquam nemo ad sed, ea deleniti saepe ipsum nesciunt
+              quia similique fugit rerum expedita nihil dolor nam ducimus eos?
+              Magni est asperiores harum! Error sequi in enim nesciunt
+              recusandae provident! Beatae non voluptates fugit eveniet
+              repudiandae eaque ipsa ad tempore nihil aspernatur consequatur
+              fugiat, commodi, laudantium alias facere quibusdam ducimus
+              corrupti! Sapiente sequi veritatis, voluptatem in repellendus sint
+              maxime magnam impedit inventore consequatur necessitatibus quasi
+              quod, odit totam placeat amet quaerat eos ut officia. Iusto
+              commodi necessitatibus, dicta iure expedita vel accusantium
+              consequatur illo exercitationem accusamus laudantium distinctio
+              saepe facilis ipsam quibusdam impedit blanditiis doloribus ex,
+              nihil reiciendis libero? Iusto dicta in architecto odit quisquam
+              ad. Obcaecati ipsam impedit possimus modi dolore minus suscipit.
+              Explicabo nulla quis pariatur accusamus itaque totam nisi fuga
+              iusto ratione voluptatem in, consectetur quibusdam? Quisquam,
+              porro! Modi repellat accusamus ratione architecto impedit.
+
               <div className="flex justify-center gap-4 py-12">
                 <a
                   href="/reader"

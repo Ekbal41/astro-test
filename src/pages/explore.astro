@@ -1,31 +1,8 @@
 ---
-import NovelCard from "../components/NovelCard";
+import ExploreFilter from "../components/ExploreFilter";
 import MainLayout from "../layouts/MainLayout.astro";
 ---
 
 <MainLayout>
-  <div class="p-8">
-    <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 mt-4">
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-      <NovelCard />
-    </div>
-  </div>
+  <ExploreFilter client:load />
 </MainLayout>

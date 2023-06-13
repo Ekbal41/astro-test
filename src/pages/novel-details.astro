@@ -1,20 +1,21 @@
 ---
+import NovelIndexComment from "../components/NovelIndexComment.jsx";
 import MainLayout from "../layouts/MainLayout.astro";
 ---
 
 <MainLayout>
-  <div>
+  <div class="md:px-26 lg:px-40">
     <div class="mt-4 p-4 rounded-md flex flex-col md:flex-row gap-6">
       <img
-        class="h-96 w-72 rounded-md mx-auto shadow-md object-cover hover:opacity-75 transition duration-500 ease-in-out transform hover:border-2 hover:border-gray-300 border-2 border-white"
+        class="h-96 mx-auto md:mx-0 w-72 rounded-md shadow-md object-cover hover:opacity-75 transition duration-500 ease-in-out transform hover:border-2 hover:border-gray-300 border-2 border-white"
         src="/novelimg.JPEG"
         alt="placeholder"
       />
       <div>
-        <div class="cursor-default mt-2">
+        <div class="cursor-default mt-2 mb-2">
           <a class="font-bold text-4xl">Nine Star Hegemon Body Art</a>
         </div>
-        <div class="flex flex-wrap gap-4">
+        <div class="flex flex-wrap gap-4 mb-2">
           <div class="text-slate-800">
             <p><i class="bi bi-tags mr-2"></i>Fantasy</p>
           </div>
@@ -25,14 +26,14 @@ import MainLayout from "../layouts/MainLayout.astro";
             <p><i class="bi bi-eye mr-2 text-lg"></i>1k Views</p>
           </div>
         </div>
-        <div class="text-slate-400">
+        <div class="text-slate-400 mb-2">
           <p>
             <i class="bi bi-vector-pen mr-2"></i>Author : <span
               class="text-green-500">author_name</span
             >
           </p>
         </div>
-        <div class="flex gap-2 text-yellow-500 text-lg">
+        <div class="flex gap-2 text-yellow-500 text-lg mb-2">
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>
@@ -44,13 +45,8 @@ import MainLayout from "../layouts/MainLayout.astro";
           >
         </div>
         <div class="mt-4 mb-8">
-          In the tens of thousands of great worlds,Mu Yun, reincarnated into the
-          body of an illegitimate son who had been bullied and humiliated. Lorem
-          ipsum dolor sit, amet consectetur adipisicing elit. Facere ipsam
-          cupiditate, necessitatibus numquam enim consectetur ab itaque ad
-          officia. Illum reprehenderit ut laboriosam corrupti perspiciatis,
-          similique pariatur nesciunt debitis et?<button
-            class="ml-2 font-bold px-1 py-0"
+          <div class="md:h-14 lg:h-24"></div>
+          <button class="ml-2 font-bold px-1 py-0"
             ><i class="bi bi-three-dots"></i></button
           >
         </div>
@@ -70,5 +66,6 @@ import MainLayout from "../layouts/MainLayout.astro";
         >
       </div>
     </div>
+    <NovelIndexComment client:load />
   </div>
 </MainLayout>
