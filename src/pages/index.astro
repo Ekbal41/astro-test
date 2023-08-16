@@ -1,21 +1,17 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import Intro from "../components/Intro.astro";
-import NovelCard from "../components/NovelCard";
+import NovelCluster from "../components/NovelCluster";
+import Header from "../components/Header.astro";
 ---
 
 <MainLayout>
-  <div class="md:px-26 lg:px-40 px-4 ">
+  <Header />
+  <div class="md:px-26 lg:px-40 px-4">
     <Intro />
-    <div>
-      <h2 class="text-slate-800 font-medium text-xl">Recent Books</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 mt-4">
-        <NovelCard />
-        <NovelCard />
-        <NovelCard />
-        <NovelCard />
-        <NovelCard />
-      </div>
-    </div>
+    <NovelCluster title="New Books" items={""} />
+    <NovelCluster title="Popular Books" items={""} />
+    <NovelCluster title="Top Books" items={""} />
+    <NovelCluster title="Original Books" items={""} />
   </div>
 </MainLayout>

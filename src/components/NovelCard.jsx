@@ -1,8 +1,8 @@
 export default function NovelCard() {
   return (
-    <div className=" flex justify-start items-center flex-col mb-8">
+    <div className=" flex justify-start items-center flex-col mb-8 w-full">
       <img
-        className="h-64 w-52 rounded-md shadow-md object-cover hover:opacity-75 transition duration-500 ease-in-out transform hover:border-2 hover:border-gray-300 border-2 border-white"
+        className="h-72 w-60 md:w-full rounded-md shadow-md object-cover hover:opacity-75 transition duration-500 ease-in-out transform hover:border-2 hover:border-gray-300 border-2 border-white"
         src="/novelimg.JPEG"
         alt="placeholder"
       />

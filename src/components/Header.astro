@@ -1,0 +1,28 @@
+---
+const images = [
+  {
+    src: "https://static.tapread.com/recommend/0934233e7a40496a80ae6cf9aba99196.jpeg",
+  },
+  {
+    src: "https://static.tapread.com/recommend/a007e7cc2abb4a2eb3504f1b5d5b2437.jpeg",
+  },
+  {
+    src: "https://static.tapread.com/recommend/136ead9b34e94fcaa9525c9c6097b081.jpeg",
+  },
+];
+---
+
+<div class="2xl:container">
+  <swiper-container>
+    {
+      images.map((image) => (
+        <swiper-slide>
+          <img src={image.src} />
+        </swiper-slide>
+      ))
+    }
+  </swiper-container>
+</div>
+<script
+  src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"
+></script>
